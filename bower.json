@@ -1,0 +1,28 @@
+{
+  "name": "fe-project-jrlevel",
+  "description": "junior level exercise",
+  "main": "index.js",
+  "authors": [
+    "oliveram"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "junior",
+    "frontend",
+    "angular"
+  ],
+  "homepage": "https://github.com/OliveraM/fe-project-jrlevel",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "requirejs": "^2.3.3"
+  }
+}

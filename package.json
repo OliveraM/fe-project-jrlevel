@@ -1,0 +1,24 @@
+{
+  "name": "fe-project-jrlevel",
+  "version": "1.0.0",
+  "description": "junior level exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliveraM/fe-project-jrlevel.git"
+  },
+  "keywords": [
+    "junior",
+    "frontend",
+    "angular"
+  ],
+  "author": "oliveram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliveraM/fe-project-jrlevel/issues"
+  },
+  "homepage": "https://github.com/OliveraM/fe-project-jrlevel#readme"
+}
