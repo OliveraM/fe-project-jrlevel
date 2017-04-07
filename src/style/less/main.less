@@ -1,0 +1,85 @@
+
+/*	colors  */
+	@color-white: #fff;
+	@color-yellow-golden: #ffcd00;
+	@color-yellow-dark: #e5bb07;
+	@color-green: #258C25;
+	@color-green-dark: #41af4a;
+	@color-green-light: #8FDB4D;
+	@color-red: #ED3535;
+	@color-red-dark : #C41C1C;
+	@color-orange-light: #F68D1E;
+	@color-orange-dark: #FF5A30;
+	@color-blue-tirquoise: #7AE1BF;
+	@color-blue-light: #45C7F4;
+	@color-blue-dark: #498DDA;
+
+
+.btn-cta{
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px 0px 0px 5px;
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    height: 48px;
+    width: 335px;
+}
+
+.btn-cta:disabled{
+	opacity: 0.5;
+	/* filter: alpha(opacity:50); */
+}
+
+.btn-primary-cta{
+	background-color: @color-yellow-golden;
+}
+
+.btn-primary-cta:hover:enabled{
+	background-color: @color-yellow-dark;
+}
+
+.btn-secondary-cta{
+    background-color: @color-white;
+    border: 3px solid @color-yellow-golden;
+}
+
+.btn-secondary-cta:hover:enabled{
+	border: 6px solid @color-yellow-golden;
+}
+
+.btn-primary-approve{
+	background-color: @color-green;
+}
+
+.btn-primary-approve:hover:enabled{
+	background-color: @color-green;
+}
+
+.btn-secondary-approve{
+	background-color: @color-white;
+	border: 3px solid @color-green;
+}
+
+.btn-secondary-approve:hover:enabled{
+	border: 6px solid @color-green;
+}
+
+.btn-primary-reject{
+	background-color: @color-red;
+}
+
+.btn-primary-reject:hover:enabled{
+	background-color: @color-red-dark;
+}
+
+.btn-secondary-reject{
+	background-color: @color-white;
+	border: 3px solid @color-red-dark;
+}
+
+.btn-secondary-reject:hover:enabled{
+	border: 6px solid @color-red-dark;
+}
