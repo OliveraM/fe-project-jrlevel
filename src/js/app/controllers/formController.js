@@ -6,5 +6,10 @@ define(['angular'], function(angular){
 
 		var ctrl = this;
 
+		var slideshowImages = ['../res/slideshow/Desert.jpg', '../res/slideshow/Jellyfish.jpg', '../res/slideshow/Penguins.jpg', '../res/slideshow/Tulips.jpg'];
+
+
 	}]);
 });
+
+/* http://kenwheeler.github.io/slick/ */
