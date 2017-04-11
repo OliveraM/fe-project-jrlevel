@@ -10,6 +10,10 @@ define(['angular'], function(angular){
 
 
 	}]);
+
+/*	module.directive('slickDirective', ['slick', function(slick){
+
+	}]);*/
 });
 
 /* http://kenwheeler.github.io/slick/ */

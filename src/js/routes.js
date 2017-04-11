@@ -1,6 +1,6 @@
-define(['angular', 'angularRoute', 'formCtrlPath'], function(angular){
+define(['angular', 'angularRoute', 'formCtrlPath', 'slickPath'], function(angular){
 
-	var module = angular.module('appRoute', ['ngRoute', 'formModule']);
+	var module = angular.module('appRoute', ['ngRoute', 'formModule', 'slick']);
 
 	module.config(function ($routeProvider){
 
